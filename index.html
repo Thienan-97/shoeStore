@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Shoe Store</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/png" href="./IMG/logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="web">
+        <!-- Header -->
+        <div class="header">
+            <!-- Logo, Search, User, Cart  -->
+            <div class="header_item">
+                <div class="header_item-logo">
+                    <img class="header_item-logo-img" src="./IMG/logo.png" alt="">
+                </div>
+
+                <div class="header_item-search">
+                    <input class="header_item-search-input" type="search" placeholder="Nhập để tìm kiếm...">
+                    <button class="header_item-search-btn"><i
+                            class=" header_item-search-icon fa fa-search"></i></button>
+                </div>
+
+                <div class="header_item-user">
+                    <div class="header_item-user-wrap">
+                        <i class="header_item-user-icon fa fa-user"></i>
+                    </div>
+
+                    <div class="header_user">
+                        <ul class="header_user-menu">
+                            <li class="header_user-menu-item">
+                                <span>Tài khoản của tôi</span>
+                            </li>
+                            <li class="header_user-menu-item">
+                                <span>Đăng xuất</span>
+                            </li>
+                        </ul>
+
+                        <div class="header_user-triatangle"></div>
+                    </div>
+                </div>
+
+                <div class="header_item-cart">
+                    <div class="header_item-cart-wrap">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar  -->
+        <div class="nav">
+            <nav class="myNavbar navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    SẢN PHẨM
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    KHUYẾN MÃI HOT
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Carousel -->
+        <div class="carousel">
+            <!-- Slider  -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./IMG/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/4.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="my-carousel-btn carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="my-carousel-btn carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <!-- Brand  -->
+            <div class="carousel_brand">
+                <div class="carousel_brand-title">
+                    <h1>Thương hiệu</h1>
+                    <span>Nổi bật</span>
+                </div>
+
+                <!-- brand items  -->
+                <div class="carousel_brand-item">
+                    <span>
+                        <img class="carousel_brand-item-img" src="./IMG/adidas.png" alt="">
+                    </span>
+                    <span>
+                        <img class="carousel_brand-item-img" src="./IMG/converse.png" alt="">
+                    </span>
+                    <span>
+                        <img class="carousel_brand-item-img" src="./IMG/nike.png" alt="">
+                    </span>
+                    <span>
+                        <img class="carousel_brand-item-img" src="./IMG/vans.png" alt="">
+                    </span>
+                    <span>
+                        <img class="carousel_brand-item-img" src="./IMG/NB.png" alt="">
+                    </span>
+                </div>
+            </div>
+
+            <!-- Triatangle  -->
+            <div class="carousel_triatangle"></div>
+        </div>
+
+        <!-- shoe -->
+        <div class="shoe">
+            <div class="shoe_title">
+                <div class="shoe_title-line"></div>
+                <h3 class="shoe_title-text">SẢN PHẨM CỦA CHÚNG TÔI</h3>
+                <div class="shoe_title-line"></div>
+            </div>
+
+            <div class="shoe_product">
+                <div class="shoe_product-item">
+                    <img class="shoe_product-item-img" src="./IMG/1970s.jpg" alt=""> 
+                    <h3 class="shoe_product-item-name">Converse 1970s</h3>
+                    <p class="shoe_product-item-price">1.600.000 VNĐ</p>
+                    <button class="shoe_product-item-btn">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="shoe_product-item">
+                    <img class="shoe_product-item-img" src="./IMG/af1.jpeg" alt=""> 
+                    <h3 class="shoe_product-item-name">Nike Air Force 1</h3>
+                    <p class="shoe_product-item-price">2.600.000 VNĐ</p>
+                    <button class="shoe_product-item-btn">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="shoe_product-item">
+                    <img class="shoe_product-item-img" src="./IMG/vansoldskool.jpg" alt=""> 
+                    <h3 class="shoe_product-item-name">Vans Old Skool</h3>
+                    <p class="shoe_product-item-price">1.700.000 VNĐ</p>
+                    <button class="shoe_product-item-btn">Thêm vào giỏ hàng</button>
+                </div>
+
+                <div class="shoe_product-item">
+                    <img class="shoe_product-item-img" src="./IMG/adidasBW.jpg.opdownload" alt=""> 
+                    <h3 class="shoe_product-item-name">Adidas Black White</h3>
+                    <p class="shoe_product-item-price">2.600.000 VNĐ</p>
+                    <button class="shoe_product-item-btn">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- news  -->
+        <div class="news">
+            <!-- news triagtangle  -->
+            <div class="news_triatangle"></div>
+
+            <div class="news_title">
+                <div class="news_title-line"></div>
+                <h3 class="news_title-text">TIN TỨC</h3>
+                <div class="news_title-line"></div>
+            </div>
+
+            <div class="news_content">
+                <div class="news_content-item">
+                    <img class="news_content-item-img" src="./IMG/nike-af1-x-louis-vuitton.jpg" alt="">
+                    <a class="news_content-item-title" href="https://giaygiare.vn/giay-louis-vuitton-air-force-1.html">VÌ SAO GIÀY LOUIS VUITTON AIR FORCE 1 CÓ GIÁ HƠN 8 TỶ ĐỒNG?</a>
+                    <div class="news_content-item-line"></div>
+                    <p class="news_content-item-para">Mẫu Louis Vuitton x Air Force 1 là sự kết hợp rất thành công của 2 thương hiệu hàng đầu trên thế giới & đặc biệt hơn là số lượng thành phẩm rất ít nên giới "rick kid" ai cũng muốn sở hữu mẫu siêu phẩm này.</p>
+                </div>
+
+                <div class="news_content-item">
+                    <img class="news_content-item-img" src="./IMG/maxresdefault.jpg" alt="">
+                    <a class="news_content-item-title" href="https://giaygiare.vn/giay-yeezy-700-v3-copper-fade.html">GIÀY YEEZY 700 V3 COPPER FADE ĐÃ MỞ BÁN CÓ GÌ ĐẶC BIỆT?</a>
+                    <div class="news_content-item-line"></div>
+                    <p class="news_content-item-para">Nếu bạn đang quan tâm đến các phiên bản của Kanye West thì hãy tham khảo bài viết sẽ giúp bạn tìm hiểu giày Yeezy 700 V3 Copper Fade có gì đặc biệt khi vừa mới ra mắt thị trường nhé!</p>
+                </div>
+
+                <div class="news_content-item">
+                    <img class="news_content-item-img" src="./IMG/giay-21-800x561.jpg" alt="">
+                    <a class="news_content-item-title" href="https://giaygiare.vn/toplist-5-sneaker-dap-got.html">TOPLIST 5 MẪU SNEAKER ĐẠP GÓT ĐẸP CHẤT NHẤT CHO GIỚI TRẺ</a>
+                    <div class="news_content-item-line"></div>
+                    <p class="news_content-item-para">Bạn đang muốn sở hữu một đôi giày sneaker đạp gót vừa đẹp, vừa tiện lợi cho nhiều nhu cầu khác nhau nhưng chưa biết chọn mẫu nào. Vậy hãy tham khảo ngay bài viết này nhé!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <div class="footer">
+            <div class="footer_blacktrans"></div>
+            <div class="footer_content">
+                <div class="footer_content-info">
+                    <h3 class="footer_content-info-name">SNEAKERS SOCIETY</h3>
+                    <P class="footer_content-info-text">Địa chỉ: 622/42/10 Thống Nhất, phường 15, Quận Gò Vấp, TP.HCM</P>
+                    <p class="footer_content-info-text">Hotline: 0966873925</p>
+                    <p class="footer_content-info-text">Email: thienan9720@gmail.com</p>
+                </div>
+
+                <div class="footer_content-help">
+                    <h3 class="footer_content-info-name">HỖ TRỢ KHÁCH HÀNG</h3>
+                    <a class="footer_content-info-text">Trang chủ</a>
+                    <a class="footer_content-info-text">Giới thiệu</a>
+                    <a class="footer_content-info-text">Sản phẩm</a>
+                    <a class="footer_content-info-text">Tin tức</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
